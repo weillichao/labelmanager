@@ -1,0 +1,12 @@
+2018-08-08 11:35:24,730 INFO (ServletRegistrationBean.java:186)- Servlet dispatcherServlet mapped to [/]
+2018-08-08 11:35:24,740 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-08 11:35:24,740 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-08 11:35:24,742 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-08 11:35:24,742 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-08 11:35:25,093 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-08 11:35:25,267 INFO (RequestMappingHandlerAdapter.java:574)- Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1817d444: startup date [Wed Aug 08 11:35:22 CST 2018]; root of context hierarchy
+2018-08-08 11:35:25,317 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/labelmanagercatagory/searchall],methods=[GET]}" onto public java.lang.String com.bigdata.labelmanager.controller.CatagoryManagerController.databaseSystemAll() throws java.lang.Exception
+2018-08-08 11:35:25,318 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/labelmanagercatagory/add],methods=[POST]}" onto public java.lang.String com.bigdata.labelmanager.controller.CatagoryManagerController.InsertDatabase(com.bigdata.labelmanager.domain.CatagoryManager) throws com.bigdata.labelmanager.exception.MyException
+2018-08-08 11:35:25,319 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/labelmanagercatagory/search],methods=[GET]}" onto public java.lang.String com.bigdata.labelmanager.controller.CatagoryManagerController.databaseSystem(java.lang.String)
+2018-08-08 11:35:25,319 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/labelmanagercatagory/getLabel],methods=[GET]}" onto public java.util.List<java.util.Map<java.lang.String, java.lang.String>> com.bigdata.labelmanager.controller.CatagoryManagerController.getLabel()
+2018-08-08 11:35:25,319 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/labelmanagercatagory/getLabelTree],methods=[GET]}" onto public java.lang.String com.bigdata.labelmanager.controller.CatagoryManagerController.getLabelTree()

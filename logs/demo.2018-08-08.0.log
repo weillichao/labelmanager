@@ -1,0 +1,7 @@
+2018-08-08 11:35:22,480 INFO (StartupInfoLogger.java:50)- Starting LabelmanagerApplication on DESKTOP-US5VR9D with PID 160604 (C:\Users\weilichao\labelmanager\target\classes started by weilichao in C:\Users\weilichao\labelmanager)
+2018-08-08 11:35:22,487 INFO (SpringApplication.java:659)- No active profile set, falling back to default profiles: default
+2018-08-08 11:35:22,661 INFO (AbstractApplicationContext.java:590)- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1817d444: startup date [Wed Aug 08 11:35:22 CST 2018]; root of context hierarchy
+2018-08-08 11:35:23,712 WARN (ClassPathMapperScanner.java:166)- No MyBatis mapper was found in '[com.bigdata.datamanager.mapper]' package. Please check your configuration.
+2018-08-08 11:35:24,511 INFO (TomcatWebServer.java:91)- Tomcat initialized with port(s): 9877 (http)
+2018-08-08 11:35:24,523 INFO (DirectJDKLog.java:180)- Initializing ProtocolHandler ["http-nio-9877"]
+2018-08-08 11:35:24,532 INFO (DirectJDKLog.java:180)- Starting service [Tomcat]
